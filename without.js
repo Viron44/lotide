@@ -20,7 +20,7 @@ const assertArraysEqual = function(actual, expected) {
 };
 
 
-// Without function:
+// WITHOUT FUNCTION:
 const without = function(source, itemsToRemove) {
   const result = [];
 
@@ -35,7 +35,7 @@ const without = function(source, itemsToRemove) {
 
 
 
-// Tests
+// TEST CODE:
 assertArraysEqual(without([1, 2, 3], [1]), [2, 3]);
 assertArraysEqual(without(["1", "2", "3"], [1, 2, "3"]), ["1", "2"]);
 assertArraysEqual(without(["apple", "banana", "cherry"], ["banana"]), ["apple", "cherry"]);
