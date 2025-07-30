@@ -1,4 +1,4 @@
-// Copy of eqArrays function:
+// eqArrays function:
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) return false;
 
@@ -10,7 +10,7 @@ const eqArrays = function(arr1, arr2) {
 };
 
 
-// Copy of assertArraysEqual funtion:
+// assertArraysEqual funtion:
 const assertArraysEqual = function(actual, expected) {
   if (eqArrays(actual, expected)) {
     console.log(`✅ Assertion Passed: [${actual}] === [${expected}]`);
@@ -20,7 +20,7 @@ const assertArraysEqual = function(actual, expected) {
 };
 
 
-// Flatten function:
+// flatten function:
 const flatten = function(arr) {
   const result = [];
 
@@ -38,7 +38,7 @@ const flatten = function(arr) {
 };
 
 
-// Test cases:
+// TEST CODE:
 assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]);
 assertArraysEqual(flatten(["a", ["b", "c"], "d"]), ["a", "b", "c", "d"]);
 assertArraysEqual(flatten([[1, 2], 3, 4]), [1, 2, 3, 4]);
