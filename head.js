@@ -1,3 +1,4 @@
+// assertEqual function:
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅ Assertion Passed: ${actual} === ${expected}`);
@@ -6,6 +7,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
+// head function:
 const head = function(array) {
   return array[0];
 };
