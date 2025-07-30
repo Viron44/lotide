@@ -20,7 +20,7 @@ const assertArraysEqual = function(actual, expected) {
 };
 
 
-// ACTUAL FUNCTION
+// middle Function:
 const middle = function(array) {
   const len = array.length;
 
@@ -38,7 +38,7 @@ const middle = function(array) {
 
 
 
-// TEST CODE
+// TEST CODE:
 assertArraysEqual(middle([1]), []);
 assertArraysEqual(middle([1, 2]), []);
 assertArraysEqual(middle([1, 2, 3]), [2]);
